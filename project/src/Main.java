@@ -1,4 +1,4 @@
-public class SimulatorApp {
+public class Main {
     public static void main(String[] args) {
         if (args.length != 3) {
             System.out.println("Usage: java Main <num_processors> <num_cycles> <num_file_path>");
