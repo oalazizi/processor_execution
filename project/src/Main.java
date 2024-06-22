@@ -4,7 +4,6 @@ public class Main {
             System.out.println("Usage: java Main <num_processors> <num_cycles> <num_file_path>");
             return;
         }
-
         int numProcessors = Integer.parseInt(args[0]);
         int numCycles = Integer.parseInt(args[1]);
         String tasksFilePath = args[2];
